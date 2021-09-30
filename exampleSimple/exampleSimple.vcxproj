@@ -199,7 +199,7 @@
     <ProjectReference Include="$(OF_ROOT)\libs\openFrameworksCompiled\project\vs\openframeworksLib.vcxproj">
       <Project>{5837595d-aca9-485c-8e76-729040ce4b0b}</Project>
     </ProjectReference>
-    <ProjectReference Include="..\ofxRestinioLib\ofxDualSense.vcxproj">
+    <ProjectReference Include="..\ofxRestinioLib\ofxRestinio.vcxproj">
       <Project>{6891a0b0-ad9e-4042-909d-1b5fdb4a3e39}</Project>
     </ProjectReference>
   </ItemGroup>

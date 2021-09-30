@@ -23,10 +23,10 @@
     <ClInclude Include="..\src\ofxRestinio.h" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="..\libs\fmt\src\fmt.cc" />
     <ClCompile Include="..\libs\fmt\src\format.cc" />
     <ClCompile Include="..\libs\fmt\src\os.cc" />
     <ClCompile Include="..\libs\http-parser\http_parser.c" />
+    <ClCompile Include="..\src\ofxRestinio.cpp" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <RootNamespace>ofxRestinio</RootNamespace>

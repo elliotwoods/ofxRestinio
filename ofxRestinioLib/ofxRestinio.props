@@ -5,7 +5,7 @@
   <PropertyGroup />
   <ItemDefinitionGroup>
     <ClCompile>
-      <AdditionalIncludeDirectories>$(OF_ROOT)addons\ofxRestinio\libs\http-parser;$(OF_ROOT)addons\ofxRestinio\libs\fmt\include;$(OF_ROOT)addons\ofxRestinio\libs\asio\include;$(OF_ROOT)addons\ofxRestinio\libs\restinio\dev;$(OF_ROOT)addons\ofxRestinio\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>$(OF_ROOT)addons\ofxRestinio\libs\nlohmann\include;$(OF_ROOT)addons\ofxRestinio\libs\http-parser;$(OF_ROOT)addons\ofxRestinio\libs\fmt\include;$(OF_ROOT)addons\ofxRestinio\libs\asio\include;$(OF_ROOT)addons\ofxRestinio\libs\restinio\dev;$(OF_ROOT)addons\ofxRestinio\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ClCompile>
   </ItemDefinitionGroup>
   <ItemGroup />

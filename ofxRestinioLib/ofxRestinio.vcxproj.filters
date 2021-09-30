@@ -32,11 +32,11 @@
     <ClCompile Include="..\libs\fmt\src\os.cc">
       <Filter>libs\fmt\src</Filter>
     </ClCompile>
-    <ClCompile Include="..\libs\fmt\src\fmt.cc">
-      <Filter>libs\fmt\src</Filter>
-    </ClCompile>
     <ClCompile Include="..\libs\http-parser\http_parser.c">
       <Filter>libs\http-parser</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\ofxRestinio.cpp">
+      <Filter>src</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
