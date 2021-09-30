@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="src">
+      <UniqueIdentifier>{99eb9846-431f-4d5e-b031-c71415076451}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="libs">
+      <UniqueIdentifier>{6e1d5cd1-166b-4275-9dce-3ddb545bdc2f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="libs\fmt">
+      <UniqueIdentifier>{c76230a0-f54a-4f87-81c1-b271c1e72db1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="libs\fmt\src">
+      <UniqueIdentifier>{65a66775-a48e-48d1-bbfe-3b90d631408d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="libs\http-parser">
+      <UniqueIdentifier>{7a512f7c-0166-46cf-bf3d-5e4f7eeeee48}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\src\ofxRestinio.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libs\http-parser\http_parser.h">
+      <Filter>libs\http-parser</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\libs\fmt\src\format.cc">
+      <Filter>libs\fmt\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libs\fmt\src\os.cc">
+      <Filter>libs\fmt\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libs\fmt\src\fmt.cc">
+      <Filter>libs\fmt\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libs\http-parser\http_parser.c">
+      <Filter>libs\http-parser</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
