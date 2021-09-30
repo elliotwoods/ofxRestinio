@@ -1,0 +1,3 @@
+[submodule "libs/restinio"]
+	path = libs/restinio
+	url = https://github.com/Stiffstream/restinio.git
